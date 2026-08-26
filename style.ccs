@@ -1,0 +1,181 @@
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-regular.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-italic.otf") format("opentype");
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-medium.otf") format("opentype");
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-mediumitalic.otf") format("opentype");
+	font-weight: 500;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-demi.otf") format("opentype");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-demiitalic.otf") format("opentype");
+	font-weight: 600;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-bold.otf") format("opentype");
+	font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-bolditalic.otf") format("opentype");
+	font-weight: 700;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-xbold.otf") format("opentype");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-xbolditalic.otf") format("opentype");
+	font-weight: 800;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-black.otf") format("opentype");
+	font-weight: 900;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Dashiell Bright';
+	src: url("fonts/dashiellbright-blackitalic.otf") format("opentype");
+	font-weight: 900;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Neue Montreal';
+	src: url("fonts/ppneuemontreal-book.otf") format("opentype");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Neue Montreal';
+	src: url("fonts/ppneuemontreal-italic.otf") format("opentype");
+	font-weight: 400;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Neue Montreal';
+	src: url("fonts/ppneuemontreal-medium.otf") format("opentype");
+	font-weight: 500;
+	font-style: normal;
+}
+
+body {
+	background: #f7f4ec;
+}
+
+.navbar {
+	display: flex;
+	align-items: center;
+	padding: 1rem;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	gap: 1.5rem;
+}
+
+.nav-links a {
+	color: #e66f9f;
+	text-decoration: none;
+	font-family: "Dashiell Bright";
+	font-weight: 800;
+	font-style: normal;
+	font-size: 18px;
+}
+
+.nav-links a:hover {
+	color: #efc6d8;
+}
+
+.card {
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 8px;
+	border-color: #333232;
+	margin: 10px;
+	padding: 5px;
+	max-width: 750px;
+}
+
+p, li {
+		font-family: "Neue Montreal", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		color: #333232; 	
+}
+
+h1 {
+	font-family: "Dashiell Bright", serif;
+	font-weight: 900;
+	font-style: normal;
+	color: #eb8672;
+}
+
+h2 {
+	font-family: "Dashiell Bright", serif;
+	font-weight: 800;
+	font-style: normal;
+	color: #cdb35e;
+}
+
+#preamble-heading {
+}
+
+#purpose-heading {
+}
+
+#principles-heading {
+}
+
+#standards-heading {
+}
+
+h3 {
+	font-family: "Dashiell Bright", serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #333232;
+}
+
+.subsection-heading {
+	font-family: "Dashiell Bright", serif;
+	font-weight: 600;
+	font-style: normal;
+	color: #333232;
+}
+
+details > summary {
+	list-style: none;
+}
