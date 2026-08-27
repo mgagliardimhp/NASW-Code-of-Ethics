@@ -89,51 +89,83 @@
 	font-style: normal;
 }
 
-body {
+body, html {
 	background: #f7f4ec;
+	height: 100%;
+}
+header {
+	padding: 0px 0px 0px 50px;
 }
 
-.navbar {
-	display: flex;
-	align-items: center;
-	padding: 1rem;
+.tabs {
+	border: 1px solid #333232;
 }
 
-.nav-links {
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-	gap: 1.5rem;
+.tablink {
+	background: #f7f4ec;
+	float: left;
+	border: 0px;
+	outline: none;
+	cursor: pointer;
+	color: #e66f9f;
+	padding: 5px;
+	margin: 5px 5px 0px 0px;
+	font-family: "Dashiell Bright";
+	font-weight: 800;
+	font-style: normal;
+	font-size: 24px;
 }
 
-.nav-links a {
+.tablink:hover {
+	color: #f7f4ec;
+	background: #e66f9f; 
+}
+
+.tabcontent {
+	background: #f7f4ec;
+	display: none;
+	padding: 50px 0px 0px 50px;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	border: 1px solid #333232;
+	border-radius: 8px;
+	padding: 5px;
+	max-width: 750px;
+}
+
+.topnav {
+	padding: 5px 0px;
+	background: #f7f4ec;
+	overflow: hidden;
+}
+
+.topnav a {
+	display: block-inline;
 	color: #e66f9f;
 	text-decoration: none;
+	text-align: center;
+	padding: 5px;
+	margin: 5px 5px 5px 0px;
 	font-family: "Dashiell Bright";
 	font-weight: 800;
 	font-style: normal;
 	font-size: 18px;
 }
 
-.nav-links a:hover {
-	color: #efc6d8;
-}
-
-.card {
-	border-style: solid;
-	border-width: 1px;
-	border-radius: 8px;
-	border-color: #333232;
-	margin: 10px;
-	padding: 5px;
-	max-width: 750px;
+.topnav a:hover {
+	color: #f7f4ec;
+	background: #e66f9f; 
 }
 
 p, li {
 		font-family: "Neue Montreal", sans-serif;
 		font-weight: 400;
 		font-style: normal;
-		color: #333232; 	
+		color: #333232;
+		max-width: 750px; 	
 }
 
 h1 {
@@ -141,6 +173,7 @@ h1 {
 	font-weight: 900;
 	font-style: normal;
 	color: #eb8672;
+	display: block;
 }
 
 h2 {
@@ -150,32 +183,26 @@ h2 {
 	color: #cdb35e;
 }
 
-#preamble-heading {
-}
-
-#purpose-heading {
-}
-
-#principles-heading {
-}
-
-#standards-heading {
-}
-
 h3 {
 	font-family: "Dashiell Bright", serif;
 	font-weight: 700;
 	font-style: normal;
-	color: #333232;
+	color: #cdb35e;
 }
 
 .subsection-heading {
 	font-family: "Dashiell Bright", serif;
-	font-weight: 600;
+	font-weight: 500;
 	font-style: normal;
 	color: #333232;
 }
 
 details > summary {
 	list-style: none;
+}
+
+b {
+	font-family: "Dashiell Bright", serif;
+	font-weight: 600;
+	font-style: normal;
 }
